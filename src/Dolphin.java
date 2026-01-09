@@ -1,4 +1,4 @@
-public class Dolphin extends Animal implements Swim{
+public class Dolphin extends Animal implements Swim {
 
 
     private String colorOfDolphin;

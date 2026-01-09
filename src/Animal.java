@@ -59,5 +59,4 @@ abstract public class Animal implements Eat {
     }
 
 
-
 }

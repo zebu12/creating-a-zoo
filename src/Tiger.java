@@ -33,7 +33,6 @@ public class Tiger extends Animal implements Walk {
     }
 
 
-
     @Override
     public void eatingCompleted() {
 
@@ -43,6 +42,6 @@ public class Tiger extends Animal implements Walk {
 
     @Override
     public void walking() {
-        System.out.println("I am walking at the speed "+speed+" mph");
+        System.out.println("I am walking at the speed " + speed + " mph");
     }
 }

@@ -1,11 +1,10 @@
-public class Penguin extends Animal implements Walk, Swim{
-
+public class Penguin extends Animal implements Walk, Swim {
 
 
     private boolean isSwimming;
     private boolean isWalking;
-    private  int walkSpeed;
-    private  int swimSpeed;
+    private int walkSpeed;
+    private int swimSpeed;
 
     public boolean isSwimming() {
         return isSwimming;
@@ -45,8 +44,6 @@ public class Penguin extends Animal implements Walk, Swim{
     }
 
 
-
-
     @Override
     public void eatingCompleted() {
 
@@ -63,7 +60,7 @@ public class Penguin extends Animal implements Walk, Swim{
     @Override
     public void walking() {
 
-        System.out.println("I am walking at the speed "+walkSpeed+" mph");
+        System.out.println("I am walking at the speed " + walkSpeed + " mph");
 
 
     }
