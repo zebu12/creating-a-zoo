@@ -96,6 +96,9 @@ public class Main {
                             case 2:
 
                                 System.out.println("The properties of the tiger are: "
+                                        + tigerObject.getAge() + " years old"
+                                        + tigerObject.getHeight()
+                                        + tigerObject.getWeight()
                                         + tigerObject.getNumberOfStripes()
                                         + tigerObject.getSpeed()
                                         + tigerObject.getSoundLevelOfRoar());
@@ -104,6 +107,7 @@ public class Main {
                                 tigerObject.walking();
                                 break;
                             case 4:
+                                tigerObject.eatingFood();
                                 tigerObject.eatingCompleted();
                                 break;
                             default:
@@ -130,6 +134,9 @@ public class Main {
 
                             case 2:
                                 System.out.println("The properties of the dolphin: "
+                                        + dolphinObject.getAge() + " years old"
+                                        + dolphinObject.getHeight()
+                                        + dolphinObject.getWeight()
                                         + dolphinObject.getColorOfDolphin()
                                         + dolphinObject.getSwimmingSpeed());
 
@@ -138,6 +145,7 @@ public class Main {
                                 tigerObject.walking();
                                 break;
                             case 4:
+                                dolphinObject.eatingFood();
                                 dolphinObject.eatingCompleted();
                                 break;
                             default:
@@ -178,6 +186,7 @@ public class Main {
                                             penguinObject.walking();
                                             break;
                                         case 4:
+                                            penguinObject.eatingFood();
                                             penguinObject.eatingCompleted();
                                             break;
                                         default:
@@ -212,6 +221,7 @@ public class Main {
                                             penguinObject.swimming();
                                             break;
                                         case 4:
+                                            penguinObject.eatingFood();
                                             penguinObject.eatingCompleted();
                                             break;
                                         default:
